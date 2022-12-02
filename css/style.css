@@ -11718,9 +11718,9 @@ body {
   color: #bfbfbf;
   background-color: #000000;
   opacity: 0.8;
-  background-image:  radial-gradient(#91EAE4 0.45px, transparent 0.45px), radial-gradient(#91EAE4 0.45px, #000000 0.45px);
+  background-image: radial-gradient(#91EAE4 0.45px, transparent 0.45px), radial-gradient(#91EAE4 0.45px, #000000 0.45px);
   background-size: 18px 18px;
-  background-position: 0 0,9px 9px;
+  background-position: 0 0, 9px 9px;
 }
 
 body.menu-show {
@@ -13942,4 +13942,8 @@ textarea.form-control {
 /* CUSTOM */
 .text-primary {
   color: #91EAE4;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  touch-action: pan-y;
 }
